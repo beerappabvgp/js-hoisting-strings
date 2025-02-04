@@ -34,10 +34,10 @@ var num = 90;
 // num = 90
 
 
-greet("ganesh");
+// greet("ganesh");
 // console.log(greet);
 
-const newGreet = greet(name);
+// const newGreet = greet(name);
 
 // under the hood
 // var greet = undefined;
@@ -57,3 +57,9 @@ const newGreet = greet(name);
 // }
 // greet('ganesh');
 
+console.log(newGreet);
+const newGreet = (name) => { return `Hello ${name}`;};
+
+
+//const newGreet;
+// console.log(newGreet);
